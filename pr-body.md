@@ -11,7 +11,7 @@ Two problems with the Colony share card, seen after #1765 went live:
 - The card only appears once the number is known, from the welcome email's link (`/colony/joined/#n=42&mac=…`). The sign-up's last step and `/colony/joined/` without a number show a short note instead, saying the card with their number comes in the welcome email.
 - On a computer, Share on X first copies the card to the clipboard (`navigator.clipboard.write` with an `image/png` `ClipboardItem`), then opens X with the same words and link. The line under the buttons says one paste (⌘V on a Mac, Ctrl+V elsewhere) adds the picture, and after the click it says the card is copied. X opens as soon as the copy is done, or after 800 ms at most. If the browser refuses the copy, X still opens and the line says to save the image instead.
 - Phones keep handing the card itself to the share sheet. Save image is unchanged.
-- The form's thank-you note no longer links `/colony/joined/` and says the number and the card link come by email. That copy lives in the form's script, outside this repo, and is already updated.
+- The form's thank-you note no longer links `/colony/joined/` and says the number and the card link come by email. That copy lives in the form's script, outside this repo. The new version is saved there and shows once the form's note is next refreshed.
 - Left out on purpose: a person's own card as the link preview. That needs a server on antseed.com, and the per-Mac pages from #1765 stay as they are.
 
 ## Issue
