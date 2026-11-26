@@ -30,7 +30,7 @@ export const POINTS: readonly TokenPoint[] = [
       {icon: 'analytics', text: 'Up to 40% to stakers, 20% to usage, 10% to verification'},
       {icon: 'check', text: 'Unused budget burns, up to 30% of each epoch'},
     ],
-    actions: [{href: ANTS_BASESCAN_URL, label: '$ANTS on Basescan ↗'}, {href: '/docs/recognized-usage/', label: 'Learn more'}],
+    actions: [{href: ANTS_BASESCAN_URL, label: 'ANTS on Basescan ↗'}, {href: '/docs/recognized-usage/', label: 'Learn more'}],
     painting: {
       day: `${ART}/supply-day.webp`,
       night: `${ART}/supply-night.webp`,

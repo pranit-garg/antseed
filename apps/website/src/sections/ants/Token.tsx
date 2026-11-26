@@ -6,15 +6,15 @@ import {TokenScene} from './TokenScene';
 import styles from './Token.module.css';
 import {PAINTINGS} from '../../lib/paintings';
 
-/** The first screen: what $ANTS is, beside the coin, then its live figures. */
+/** The first screen: what ANTS is, beside the coin, then its live figures. */
 export function Token(): JSX.Element {
   return (
     <FirstScreen
       cmp="ants/token"
       titleId="ants-title"
       className={styles.token}
-      eyebrow="$ANTS details"
-      title={['Inference is the currency.', '$ANTS makes it liquid.']}
+      eyebrow="ANTS details"
+      title={['Inference is the currency.', 'ANTS makes it liquid.']}
       titleClassName={styles.title}
       secondLine="block"
       sub="Stake it with providers to get AI on their terms, and your stake stays tradable."

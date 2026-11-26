@@ -13,7 +13,7 @@ const PUPILS: readonly Pupil[] = [
   {src: `${ART}/ants-token-pupil-r.webp`, left: '72.24%', top: '26.79%', width: '9.38%'},
 ];
 
-/** Over the field painting: the $ANTS coin floating, an ant looking up at it in awe, its pupils trembling. Moves only while on screen. */
+/** Over the field painting: the ANTS coin floating, an ant looking up at it in awe, its pupils trembling. Moves only while on screen. */
 export function TokenScene(): JSX.Element {
   const ref = useRef<HTMLSpanElement>(null);
   const onScreen = useInView(ref);
@@ -27,7 +27,7 @@ export function TokenScene(): JSX.Element {
           <img key={p.src} className={styles.pupil} src={p.src} style={{left: p.left, top: p.top, width: p.width} as CSSProperties} alt="" decoding="async" />
         ))}
       </span>
-      <img className={styles.coin} src={`${ART}/ants-coin-cut.webp`} width={557} height={603} alt="A green $ANTS coin, tilted, the Antseed ant raised in white on its face, in watercolour" decoding="async" />
+      <img className={styles.coin} src={`${ART}/ants-coin-cut.webp`} width={557} height={603} alt="A green ANTS coin, tilted, the Antseed ant raised in white on its face, in watercolour" decoding="async" />
     </span>
   );
 }

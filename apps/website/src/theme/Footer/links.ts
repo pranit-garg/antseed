@@ -13,7 +13,7 @@ export const FOOTER_COLUMNS: readonly FooterColumn[] = [
     {label: 'How it works', to: '/network/'},
     {label: 'Become a Provider', to: '/providers/'},
     {label: 'Colony', to: '/colony/'},
-    {label: '$ANTS', to: '/ants/'},
+    {label: 'ANTS', to: '/ants/'},
     {label: 'vs OpenRouter', to: '/vs/openrouter/'},
     {label: 'AntSeedStats\u00a0↗', to: 'https://antseedstats.com', external: true},
     {label: 'AIPs\u00a0↗', to: 'https://aips.antseed.com', external: true},

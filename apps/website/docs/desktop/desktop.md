@@ -46,7 +46,7 @@ The first time, **API keys** opens the local gateway's one-time owner setup link
 
 ## Rewards
 
-**Rewards** shows the $ANTS your gateway's wallet earned from usage. Claiming needs the wallet's operator signature, so **View rewards in your gateway** opens the Gateway Console's Rewards page, where you claim and see each epoch.
+**Rewards** shows the ANTS your gateway's wallet earned from usage. Claiming needs the wallet's operator signature, so **View rewards in your gateway** opens the Gateway Console's Rewards page, where you claim and see each epoch.
 
 ## Add funds
 

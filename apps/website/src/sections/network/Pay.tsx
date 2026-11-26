@@ -42,7 +42,7 @@ export default function Pay(): JSX.Element {
   return (
     <Section cmp="network/pay" id="token" labelledBy="pay-title" className={styles.pay} railClassName={styles.rail}>
       <header className={styles.head} data-rv="">
-        <Heading id="pay-title" secondLine="break" className={styles.heading} title={['USDC pays.', '$ANTS makes inference liquid.']} />
+        <Heading id="pay-title" secondLine="break" className={styles.heading} title={['USDC pays.', 'ANTS makes inference liquid.']} />
       </header>
       <div className={styles.paths}>
         {PAY_PATHS.map((p, i) => <Path key={p.title} path={p} index={i} />)}

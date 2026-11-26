@@ -21,7 +21,7 @@ export const PAY_PATHS: readonly PayPath[] = [
       night: '/site/assets/home/usdc-coin-cut-night.webp',
       width: 544,
       height: 603,
-      alt: 'A blue USDC coin, tilted, its face turned toward the $ANTS coin, in watercolour',
+      alt: 'A blue USDC coin, tilted, its face turned toward the ANTS coin, in watercolour',
     },
     features: [
       {icon: 'laptop', text: point('Payments always use USDC, whether you use the Gateway, Desktop or CLI.')},
@@ -39,7 +39,7 @@ export const PAY_PATHS: readonly PayPath[] = [
       src: '/site/assets/home/ants-coin-cut.webp',
       width: 557,
       height: 603,
-      alt: 'A green $ANTS coin, tilted, the Antseed ant raised in white on its face, in watercolour',
+      alt: 'A green ANTS coin, tilted, the Antseed ant raised in white on its face, in watercolour',
     },
     features: [
       {icon: 'server', text: point('ANTS holders stake ANTS behind providers they want to support and receive lANTS.')},

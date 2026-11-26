@@ -20,7 +20,7 @@ export function TokenFigures(): JSX.Element {
     {id: 'epoch', value: `Epoch ${clock.epoch}`, caption: clock.countdown ?? 'Epochs run weekly'},
   ];
   return (
-    <div ref={ref} className={styles.figures} role="group" aria-label="$ANTS, live">
+    <div ref={ref} className={styles.figures} role="group" aria-label="ANTS, live">
       {figures.map((f) => (
         <div key={f.id} className={styles.figure}>
           <Tally className={styles.value} value={f.value} />
