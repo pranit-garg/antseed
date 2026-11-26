@@ -6,6 +6,10 @@ This project uses selective package publishing. Each release entry lists the pub
 
 ## Unreleased
 
+### Changed
+
+- Website: the token is written as ANTS, without the dollar sign, in the footer, on `/ants/` and `/network/`, and in the desktop and gateway API docs.
+
 ## 2026-11-26 — CLI 0.1.262, Desktop 0.2.96
 
 ### Packages
